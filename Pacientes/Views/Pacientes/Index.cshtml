@@ -1,0 +1,52 @@
+﻿@using System.Data
+@model DataTable
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Estilos/styles.css" rel="stylesheet" />
+</head>
+<body>
+
+    @TempData["Mensaje"]
+    @TempData["Error_eliminar"]
+    <H1 class="titulo_clinica">Clínica del Dr. Simi</H1>
+    <div>
+        <table>
+            <thead class="Cuadro">
+                <tr>
+                    <th>Nombre del Paciente</th>
+                    <th>Apellidos del Paciente</th>
+                    <th>Edad</th>
+                    <th>Fecha de la Alta</th>
+                    <th>Opciones</th>
+                </tr>
+            </thead>
+            <tbody class="datos">
+                @foreach (DataRow item in Model.Rows)
+                {
+                    <tr>
+
+                        <td>@item["Nombre_del_paciente"]</td>
+                        <td>@item["Apellidos"]</td>
+                        <td>@item["Edad"]</td>
+                        <td>@item["Fecha_de_alta"]</td>
+                        <td><a href="/Pacientes/Delete_paciente/@item["Id"]" onclick="return  confirm('Seguro que quiere eliminar al Paciente?')">Eliminar </a></td>
+                        <td><a href="/Pacientes/Update_paciente/@item["Id"]">Editar </a></td>
+                    </tr>
+                }
+            </tbody>
+            <tr>
+                <td><a href="~/Pacientes/Agregar_paciente">Agregar nuevo Paciente</a></td>
+            </tr>
+        </table>
+        <img src="~/Imagenes/simi.jpg" width="100" height="100" alt="Alternate Text" />
+    </div>
+</body>
+</html>

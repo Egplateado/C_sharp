@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "capa_presentacion/1.0.0": {
+        "dependencies": {
+          "capa_Entidad": "1.0.0",
+          "capa_negocio": "1.0.0"
+        },
+        "runtime": {
+          "capa_presentacion.dll": {}
+        }
+      },
+      "capa_datos/1.0.0": {
+        "dependencies": {
+          "capa_Entidad": "1.0.0"
+        },
+        "runtime": {
+          "capa_datos.dll": {}
+        }
+      },
+      "capa_Entidad/1.0.0": {
+        "runtime": {
+          "capa_Entidad.dll": {}
+        }
+      },
+      "capa_negocio/1.0.0": {
+        "dependencies": {
+          "capa_Entidad": "1.0.0",
+          "capa_datos": "1.0.0"
+        },
+        "runtime": {
+          "capa_negocio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "capa_presentacion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "capa_datos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "capa_Entidad/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "capa_negocio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_Entidad\bin\Debug\net6.0-windows\capa_Entidad.deps.json
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_Entidad\bin\Debug\net6.0-windows\capa_Entidad.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_Entidad\bin\Debug\net6.0-windows\capa_Entidad.pdb
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_Entidad\obj\Debug\net6.0-windows\capa_Entidad.csproj.AssemblyReference.cache
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_Entidad\obj\Debug\net6.0-windows\capa_Entidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_Entidad\obj\Debug\net6.0-windows\capa_Entidad.AssemblyInfoInputs.cache
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_Entidad\obj\Debug\net6.0-windows\capa_Entidad.AssemblyInfo.cs
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_Entidad\obj\Debug\net6.0-windows\capa_Entidad.csproj.CoreCompileInputs.cache
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_Entidad\obj\Debug\net6.0-windows\capa_Entidad.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_Entidad\obj\Debug\net6.0-windows\refint\capa_Entidad.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_Entidad\obj\Debug\net6.0-windows\capa_Entidad.pdb
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_Entidad\obj\Debug\net6.0-windows\ref\capa_Entidad.dll

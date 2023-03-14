@@ -1,0 +1,45 @@
+﻿@using System.Data
+@model DataRow
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Vista_editar</title>
+</head>
+<body>
+    <div>
+        <form>
+            <table>
+                <tr>
+                    <td>Nombre:</td>
+                    <td><input type="hidden" value="@Model["id_persona"]"  name="id" /></td>
+                    <td>@Html.TextBox("Nombre" , Model["Nombre"])</td>
+                </tr>
+                <tr>
+                    <td>A_paterno:</td>
+                    <td>@Html.TextBox("A_paterno" , Model["A_paterno"])</td>
+                </tr>
+                <tr>
+                    <td>A_materno:</td>
+                    <td>@Html.TextBox("A_materno" , Model["A_materno"])</td>
+                </tr>
+                <tr>
+                    <td>Edad:</td>
+                    <td>@Html.TextBox("Edad" , Model["edad"])</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Agregar" formaction="/Home/Accion_editar" />
+                        @Html.ActionLink("Regresar", "Index")
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

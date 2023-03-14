@@ -1,0 +1,43 @@
+﻿@using System.Data
+@model DataTable
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>A_Paterno</th>
+                    <th>A_Materno</th>
+                    <th>Edad</th>
+                    <th>opciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (DataRow item in Model.Rows)
+                {
+                    <tr>
+                        <td>@item["nombre"]</td>
+                        <td>@item["A_Paterno"]</td>
+                        <td>@item["A_Materno"]</td>
+                        <td>@item["Edad"]</td>
+                        <td><a href="/Home/Vista_editar/@item["id_persona"]">editar</a></td>
+                        <td><a href="/Home/Accion_eliminar/@item["id_persona"]" onclick="return confirm('Seguro que deseas eliminar?')">ELIMINAR</a></td>
+                    </tr>
+                }
+                @Html.ActionLink("Agregar", "Add_view")
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

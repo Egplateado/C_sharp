@@ -1,0 +1,6 @@
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\DataPelicula\bin\Debug\DataPelicula.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\DataPelicula\bin\Debug\DataPelicula.pdb
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\DataPelicula\obj\Debug\DataPelicula.csproj.AssemblyReference.cache
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\DataPelicula\obj\Debug\DataPelicula.csproj.CoreCompileInputs.cache
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\DataPelicula\obj\Debug\DataPelicula.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\DataPelicula\obj\Debug\DataPelicula.pdb

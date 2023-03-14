@@ -1,0 +1,42 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Agregar_get</title>
+</head>
+<body>
+    <div> 
+        <form>
+            <table>
+                <tr>
+                    <td>Nombre</td>
+                    <td>@Html.TextBox("Nombre")</td>
+                </tr>
+                <tr>
+                    <td>Tipo</td>
+                    <td>@Html.TextBox("Tipo")</td>
+                </tr>
+                <tr>
+                    <td>Fecha de Caducidad</td>
+                    <td>@Html.TextBox("Fecha",null,new {type = "date" })</td>
+                </tr>
+                <tr>
+                    <td>Precio</td>
+                    <td>@Html.TextBox("Precio")</td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Agregar" formaction="/Home/Agregar_post" /></td>
+                    <td>@Html.ActionLink("Regresar", "Index")</td>
+                </tr>
+                
+            </table>
+        </form>
+    </div>
+</body>
+</html>

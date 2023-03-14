@@ -1,0 +1,46 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Vista</title>
+</head>
+<body>
+    <div>
+        <form>
+            <table>
+                <tr>
+                    <td>Nombre:</td>
+                    <td>
+                        <input type="text" name="nombre" id="nombre" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Apellidos:</td>
+                    <td>
+                        <input type="text" name="apellidos" id="Apellidos" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Edad:</td>
+                    <td>
+                        <input type="text" name="edad" id="edad" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Concatenar" formaction="/Formulario_1/Concatenar" />
+                    </td>
+                </tr>
+            </table>
+
+        </form>
+        <h1>@TempData["mensaje"]</h1>
+    </div>
+</body>
+</html>

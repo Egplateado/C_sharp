@@ -1,0 +1,274 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_presentacion\\capa_presentacion.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_datos\\capa_datos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_datos\\capa_datos.csproj",
+        "projectName": "capa_datos",
+        "projectPath": "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_datos\\capa_datos.csproj",
+        "packagesPath": "C:\\Users\\plateado\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_datos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\plateado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_Entidad\\capa_Entidad.csproj": {
+                "projectPath": "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_Entidad\\capa_Entidad.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_Entidad\\capa_Entidad.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_Entidad\\capa_Entidad.csproj",
+        "projectName": "capa_Entidad",
+        "projectPath": "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_Entidad\\capa_Entidad.csproj",
+        "packagesPath": "C:\\Users\\plateado\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_Entidad\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\plateado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_negocio\\capa_negocio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_negocio\\capa_negocio.csproj",
+        "projectName": "capa_negocio",
+        "projectPath": "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_negocio\\capa_negocio.csproj",
+        "packagesPath": "C:\\Users\\plateado\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_negocio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\plateado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_datos\\capa_datos.csproj": {
+                "projectPath": "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_datos\\capa_datos.csproj"
+              },
+              "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_Entidad\\capa_Entidad.csproj": {
+                "projectPath": "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_Entidad\\capa_Entidad.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_presentacion\\capa_presentacion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_presentacion\\capa_presentacion.csproj",
+        "projectName": "capa_presentacion",
+        "projectPath": "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_presentacion\\capa_presentacion.csproj",
+        "packagesPath": "C:\\Users\\plateado\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_presentacion\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\plateado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_Entidad\\capa_Entidad.csproj": {
+                "projectPath": "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_Entidad\\capa_Entidad.csproj"
+              },
+              "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_negocio\\capa_negocio.csproj": {
+                "projectPath": "C:\\Users\\plateado\\Documents\\TI_VEDELOPER\\C#\\Udemy_cs_4_capas\\capa_negocio\\capa_negocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

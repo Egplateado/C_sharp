@@ -1,0 +1,59 @@
+﻿@using System.Data
+@model DataTable
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Ganaderias de Mexico</title>
+    <link href="~/Estilos/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div id = "container"> 
+        <header>
+        <h1>GANADERIAS</h1>
+        </header>
+    </div>
+    <div>
+        <table>
+            <thead class="Cuadro">
+                <tr>
+                    <th>Nombre del Rancho</th>
+                    <th>Nombre del Dueño</th>
+                    <th>Numero de toros</th>
+                    <th>Ubicación del rancho</th>
+                    <th>Opciones</th>
+                </tr>
+            </thead>
+            <tbody class="datos">
+                @foreach (DataRow item in Model.Rows)
+                {
+                    <tr>
+
+                        <td>@item["Nombre_del_rancho"]</td>
+                        <td>@item["Nombre_del_dueño"]</td>
+                        <td>@item["N_de_toros"]</td>
+                        <td>@item["Ubicacion_del_rancho"]</td>
+                        <td><a href="/Ganaderias/Vista_Editar/@item["Id_Ranchos"]">Editar</a></td>
+                        <td><a href="~/Ganaderias/Accion_Eliminar/@item["Id_Ranchos"]" onclick="return confirm('Seguro que quieres eliminar este rancho?')">Eliminar Rancho</a></td>
+                    </tr>
+                }
+            </tbody>
+            <tr>
+                <td><a href="~/Ganaderias/Vista_Agregar">Agregar nuevo Rancho</a></td>
+            </tr>
+        </table>
+        <h3>Total de campos @Model.Rows.Count</h3>
+        <h3>Total de campos @Model.Columns.Count</h3>
+        <form>
+            @Html.TextBox("data")
+            <input type="submit" " value="Buscar" formaction="/Ganaderias/Buscar" />
+        </form>
+    </div>
+    <img src="~/Imagenes/Jaripeo_portada.jpg" alt="Jaripeo Portada " width="200" height="200" />
+</body>
+</html>

@@ -1,0 +1,6 @@
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\EntityPelicula\bin\Debug\EntityPelicula.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\EntityPelicula\bin\Debug\EntityPelicula.pdb
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\EntityPelicula\obj\Debug\EntityPelicula.csproj.AssemblyReference.cache
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\EntityPelicula\obj\Debug\EntityPelicula.csproj.CoreCompileInputs.cache
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\EntityPelicula\obj\Debug\EntityPelicula.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\EntityPelicula\obj\Debug\EntityPelicula.pdb

@@ -1,0 +1,37 @@
+﻿* {
+    margin: 4px;
+    padding: 2px;
+}
+
+body {
+    background: lightblue;
+}
+
+#container {
+    width: 100%;
+    margin: 0% auto;
+    border: 2px solid blue;
+}
+
+header {
+    background: darkblue;
+    text-align: center;
+    height: 60%;
+    line-height: 70px;
+    margin: 1px;
+    color:aliceblue;
+}
+
+.Cuadro {
+    width: 100%;
+    margin: 0% auto;
+    border: 2px solid blue;
+    color:mediumvioletred;
+    text-align:center;
+}
+
+.datos
+{
+    text-align:center;
+    color:darkmagenta;
+}

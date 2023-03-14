@@ -1,0 +1,45 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Agregar_paciente</title>
+    <link href="~/Estilos/Agregar_paciente.css" rel="stylesheet" />
+</head>
+<body>
+    <h2 class="Paciente">Paciente Nuevo</h2>
+    <div>
+        @TempData["Mensaje"]
+        @TempData["Error"]
+        <form>
+            <table>
+                <tr>
+                    <td>Nombre del Paciente</td>
+                    <td>@Html.TextBox("Nombre_del_paciente")</td>
+                </tr>
+                <tr>
+                    <td>Apellidos del Paciente</td>
+                    <td>@Html.TextBox("Apellidos")</td>
+                </tr>
+                <tr>
+                    <td>Edad</td>
+                    <td>@Html.TextBox("Edad")</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="submit" value="Agregar Paciente" formaction="/Pacientes/Post_paciente" />
+                        @Html.ActionLink("Regresar", "Index")
+
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

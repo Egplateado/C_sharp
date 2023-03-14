@@ -1,0 +1,43 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add_view</title>
+</head>
+<body>
+    <div>
+        <form>
+            <table>
+                <tr>
+                    <td>Nombre:</td>
+                    <td>@Html.TextBox("Nombre")</td>
+                </tr>
+                <tr>
+                    <td>A_paterno:</td>
+                    <td>@Html.TextBox("A_paterno")</td>
+                </tr>
+                <tr>
+                    <td>A_materno:</td>
+                    <td>@Html.TextBox("A_materno")</td>
+                </tr>
+                <tr>
+                    <td>Edad:</td>
+                    <td>@Html.TextBox("Edad")</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Agregar" formaction="/Home/Accion_agregar" />
+                        @Html.ActionLink("Regresar", "Index")
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

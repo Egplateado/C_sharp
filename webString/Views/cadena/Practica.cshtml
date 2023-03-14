@@ -1,0 +1,197 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Practica</title>
+    <link href="~/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        <div>
+            <table>
+                <tr>
+                    <td>Ejercicio 1</td>
+                    <td>@Html.TextBox("Data")</td>
+                    <td><input type="submit" value="Contar" formaction="/cadena/data_contar/" /></td>
+                </tr>
+            </table>
+        </div>
+        <h3>@TempData["Numero"]</h3>
+    }
+    <div>
+        @using (Html.BeginForm())
+        {
+
+            <table>
+                <tr>
+                    <td>Ejercicio 2</td>
+                    <td>@Html.TextBox("Data_mayus")</td>
+                    <td><input type="submit" value="Mayuscula" formaction="/cadena/Data_mayuscula/" /></td>
+                </tr>
+            </table>
+
+            <h3>@TempData["Mostrar_mayus"]</h3>
+        }
+    </div>
+    <div>
+        @using (Html.BeginForm())
+        {
+
+            <table>
+                <tr>
+                    <td>Ejercicio 3</td>
+                    <td>@Html.TextBox("Data_minus")</td>
+                    <td><input type="submit" value="Minuscula" formaction="/cadena/Data_minuscula/" /></td>
+                </tr>
+            </table>
+
+            <h3>@TempData["Mostrar_minus"]</h3>
+        }
+    </div>
+    <div>
+        @using (Html.BeginForm())
+        {
+
+            <table>
+                <tr>
+                    <td>Ejercicio 4</td>
+                    <td>@Html.TextBox("caja_1")</td>
+                    <td>@Html.TextBox("caja_2")</td>
+                    <td>@Html.TextBox("caja_3")</td>
+                    <td><input type="submit" value="concatenar" formaction="/cadena/Concatenar/" /></td>
+                </tr>
+            </table>
+
+            <h3>@TempData["Mostrar_concatenar"]</h3>
+        }
+    </div>
+    <div>
+        @using (Html.BeginForm())
+        {
+
+            <table>
+                <tr>
+                    <td>Ejercicio 5</td>
+                    <td>@Html.TextBox("caja_1")</td>
+                    <td>@Html.TextBox("caja_2")</td>
+
+                    <td><input type="submit" value="validar" formaction="/cadena/Validar_sentence/" /></td>
+                </tr>
+            </table>
+
+            <h3>@TempData["Mostrar_validacion"]</h3>
+        }
+    </div>
+    <div>
+        @using (Html.BeginForm())
+        {
+
+            <table>
+                <tr>
+                    <td>Ejercicio 6</td>
+                    <td>@Html.TextBox("cadena", "1,2,3,4,5,6,7/8,9,0/11,12,13/")</td>
+                    <td><input type="submit" value="Limpiar" formaction="/cadena/Data_clear/" /></td>
+                </tr>
+            </table>
+
+            <h3>@TempData["limpio"]</h3>
+        }
+    </div>
+    <div>
+        @using (Html.BeginForm())
+        {
+
+            <table>
+                <tr>
+                    <td>Ejercicio 7</td>
+                    <td>@Html.TextBox("cadena_coma", "Hola Devo.,")</td>
+                    <td><input type="submit" value="Limpiar" formaction="/cadena/Data_coma/" /></td>
+
+                </tr>
+            </table>
+
+            <h3>@TempData["coma"]</h3>
+        }
+    </div>
+    <div>
+        <form>
+            <table>
+                <tr>
+                    <td>Ejercicio 8</td>
+                    <td>
+                        <input type="text" name="espacios" />
+                    </td>
+                    <td>
+                        <input class="entrada" type="submit" value="espacios" formaction="/cadena/Data_espacios" />
+
+                    </td>
+                </tr>
+            </table>
+            <h3>@TempData["espacio"]</h3>
+        </form>
+    </div>
+    <div>
+        <form>
+            <table>
+                <tr>
+                    <td>Ejercicio 9</td>
+                    <td><input type="text" name="data" /></td>
+                    <td><input class="entrada" type="submit" value="Comprobar" formaction="/cadena/Validar_word" /></td>
+                </tr>
+            </table>
+            <h3>@TempData["ti"]</h3>
+        </form>
+    </div>
+    <div>
+        <form>
+            <table>
+                <tr>
+                    <td>Ejercicio 10</td>
+                    <td><input type="text" name="data_pad" /></td>
+                    <td><input class="entrada" type="submit" value="Comprobar" formaction="/cadena/Pad" /></td>
+            </table>
+            <h3>@TempData["PAD"]</h3>
+        </form>
+    </div>
+    <div>
+        <form>
+            <table>
+                <tr>
+                    <td>Ejercicio 11</td>
+                    <td><input type="text" name="data_mayus" /></td>
+                    <td><input class="entrada" type="submit" value="Comprobar" formaction="/cadena/Data_mayus" /></td>
+            </table>
+            <h3>@TempData["id"]</h3>
+        </form>
+    </div>
+    <div>
+        <form>
+            <table>
+                <tr>
+                    <td>Ejercicio 12</td>
+                    <td><input type="text" name="data_alreves" /></td>
+                    <td><input class="entrada" type="submit" value="pa'atras volteado" formaction="/cadena/Data_alreves" /></td>
+            </table>
+            <h3>@TempData["alreves"]</h3>
+        </form>
+    </div>
+    <div>
+        <form>
+            <table>
+                <tr>
+                    <td>Ejercicio 13</td>
+                    <td><input type="text" name="vocales" /></td>
+                    <td><input class="entrada" type="submit" value="vocales" formaction="/cadena/Data_vocales" /></td>
+            </table>
+            <h3>@TempData["vocales"]</h3>
+        </form>
+    </div>
+</body>
+</html>

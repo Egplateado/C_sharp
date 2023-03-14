@@ -1,0 +1,43 @@
+﻿@using System.Data
+@model DataRow
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Vista_Editar</title>
+    <link href="~/Estilos/Estilo_Editar.css" rel="stylesheet" />
+</head>
+<body>
+    <div> 
+        <form>
+            <table>
+                <tr>
+                    <td>Nombre del Rancho</td>
+                    <td>@Html.TextBox("Nombre_del_Rancho", Model["Nombre_del_Rancho"])</td>
+                    <td><input type="hidden" name="Id" value="@Model["Id_Ranchos"]" /></td>
+                </tr>
+                <tr>
+                    <td>Nombre del Dueño</td>
+                    <td>@Html.TextBox("Nombre_del_Dueño", Model["Nombre_del_Dueño"])</td>
+                </tr>
+                <tr>
+                    <td>Numero de Toros</td>
+                    <td>@Html.TextBox("N_de_Toros", Model["N_de_Toros"])</td>
+                </tr>
+                <tr>
+                    <td>Ubicacion del RANCHO</td>
+                    <td>@Html.TextBox("Ubicacion_del_Rancho", Model["Ubicacion_del_Rancho"])</td>
+                </tr>
+                          <tr>
+                    <td><input type="submit" value="Aceptar" formaction="/Ganaderias/Accion_Editar" /></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

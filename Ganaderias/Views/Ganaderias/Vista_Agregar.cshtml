@@ -1,0 +1,45 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Vista_Agregar</title>
+</head>
+<body>
+    <div>
+        @TempData["validar"]
+        <form>
+            <table>
+                <tr>
+                    <td>Nombre del Rancho</td>
+                    <td>@Html.TextBox("Nombre_del_Rancho")</td>
+                </tr>
+                <tr>
+                    <td>Nombre del Dueño</td>
+                    <td>@Html.TextBox("Nombre_del_Dueño")</td>
+                </tr>
+                <tr>
+                    <td>Numero de toros</td>
+                    <td>@Html.TextBox("N_de_Toros")</td>
+                </tr>
+                <tr>
+                    <td>Ubicación del Rancho</td>
+                    <td>@Html.TextBox("Ubicacion_del_Rancho")</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Agregar Rancho" formaction="/Ganaderias/Accion_Agregar" />
+                        @Html.ActionLink("Regresar", "Index")
+                       
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+﻿body 
+{
+    background-color:#ebfaf9;
+}
+
+h3
+{
+    color:red;
+}
+
+
+
+.entrada {
+    background-color: #EB455F;
+    color: #FCFFE7;
+}
+
+    .entrada:hover {
+        background-color: #2B3467;
+    }
+    .entrada:active {
+    background-color: #BAD7E9;
+    }

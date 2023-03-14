@@ -1,0 +1,43 @@
+﻿@using System.Data
+@model DataRow
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Vista_editar</title>
+</head>
+<body>
+    <div> 
+        <section>
+            <form >
+                <table>
+                    <tr>
+                        <td>Nombre del medicamento</td>
+                        <td>@Html.TextBox("Nombre", Model["Nombre_del_medicamento"])</td>
+                        <td><input type="hidden" name="id" value="@Model["Id_medicamento"]" /></td>
+                    </tr>
+                    <tr>
+                        <td>Tipo del medicamento</td>
+                        <td>@Html.TextBox("Tipo", Model["Tipo_del_medicamento"])</td>
+                    </tr>
+                    <tr>
+                        <td>Fecha de caducidad</td>
+                        <td>@Html.TextBox("Fecha", null, new {type="date"} )</td>
+                    </tr>
+                    <tr>
+                        <td>Precio</td>
+                        <td>@Html.TextBox("Precio", Model["Precio"])</td>
+                    </tr>
+                    <td><input type="submit" value="Aceptar" formaction="/Home/Editar" /></td>
+                </table>
+            </form>
+            <a href="/Home/Index">Regresar</a>
+        </section>
+    </div>
+</body>
+</html>

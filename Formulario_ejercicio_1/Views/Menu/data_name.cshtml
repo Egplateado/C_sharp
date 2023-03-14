@@ -1,0 +1,47 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>data_name</title>
+</head>
+<body>
+    <div> 
+        <form>
+            <table>
+                <tr>
+                    <td>Nombre</td>
+                    <td>
+                        <input type="text" name="Nombre" id="Nombre" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>A.Paterno</td>
+                    <td>
+                        <input type="text" name="Paterno" id="Paterno" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>A.Materno</td>
+                    <td>
+                        <input type="text" name="Materno" id="Materno" />
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <a href="/Menu/menu_view">Menu</a>
+                        <input type="submit" value="Aceptar" formaction="/Menu/Aceptar" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <h1>@TempData["Aceptar"]</h1>
+    </div>
+</body>
+</html>

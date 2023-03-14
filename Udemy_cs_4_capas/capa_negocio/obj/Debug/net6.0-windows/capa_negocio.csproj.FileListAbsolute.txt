@@ -1,0 +1,17 @@
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_negocio\bin\Debug\net6.0-windows\capa_negocio.deps.json
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_negocio\bin\Debug\net6.0-windows\capa_negocio.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_negocio\bin\Debug\net6.0-windows\capa_negocio.pdb
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_negocio\bin\Debug\net6.0-windows\capa_datos.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_negocio\bin\Debug\net6.0-windows\capa_Entidad.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_negocio\bin\Debug\net6.0-windows\capa_datos.pdb
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_negocio\bin\Debug\net6.0-windows\capa_Entidad.pdb
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_negocio\obj\Debug\net6.0-windows\capa_negocio.csproj.AssemblyReference.cache
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_negocio\obj\Debug\net6.0-windows\capa_negocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_negocio\obj\Debug\net6.0-windows\capa_negocio.AssemblyInfoInputs.cache
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_negocio\obj\Debug\net6.0-windows\capa_negocio.AssemblyInfo.cs
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_negocio\obj\Debug\net6.0-windows\capa_negocio.csproj.CoreCompileInputs.cache
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_negocio\obj\Debug\net6.0-windows\capa_negocio.csproj.CopyComplete
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_negocio\obj\Debug\net6.0-windows\capa_negocio.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_negocio\obj\Debug\net6.0-windows\refint\capa_negocio.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_negocio\obj\Debug\net6.0-windows\capa_negocio.pdb
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_negocio\obj\Debug\net6.0-windows\ref\capa_negocio.dll

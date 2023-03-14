@@ -1,0 +1,15 @@
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_datos\bin\Debug\net6.0-windows\capa_datos.deps.json
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_datos\bin\Debug\net6.0-windows\capa_datos.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_datos\bin\Debug\net6.0-windows\capa_datos.pdb
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_datos\bin\Debug\net6.0-windows\capa_Entidad.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_datos\bin\Debug\net6.0-windows\capa_Entidad.pdb
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_datos\obj\Debug\net6.0-windows\capa_datos.csproj.AssemblyReference.cache
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_datos\obj\Debug\net6.0-windows\capa_datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_datos\obj\Debug\net6.0-windows\capa_datos.AssemblyInfoInputs.cache
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_datos\obj\Debug\net6.0-windows\capa_datos.AssemblyInfo.cs
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_datos\obj\Debug\net6.0-windows\capa_datos.csproj.CoreCompileInputs.cache
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_datos\obj\Debug\net6.0-windows\capa_datos.csproj.CopyComplete
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_datos\obj\Debug\net6.0-windows\capa_datos.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_datos\obj\Debug\net6.0-windows\refint\capa_datos.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_datos\obj\Debug\net6.0-windows\capa_datos.pdb
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\Udemy_cs_4_capas\capa_datos\obj\Debug\net6.0-windows\ref\capa_datos.dll

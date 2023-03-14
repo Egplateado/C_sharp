@@ -1,0 +1,41 @@
+﻿@using EntityPelicula
+@model List<EPelicula>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@if (TempData["Error"] != null)
+{
+    @TempData["Error"]
+}
+@if (TempData["mensaje"] != null)
+{
+    @TempData["mensaje"]
+}
+<table>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Genero</th>
+            <th>Fecha de emision</th>
+            <th>Director</th>
+            <th>Opciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Nombre</td>
+                <td>@item.Genero</td>
+                <td>@item.Fecha</td>
+                <td>@item.Director</td>
+                <td>
+                    Editar|Borrar
+                </td>
+            </tr>
+        }
+        @Html.ActionLink("Agregar" , "Agregar_get")
+    </tbody>
+</table>

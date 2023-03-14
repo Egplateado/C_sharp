@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Agregar_get";
+}
+
+<h2>Agregar_get</h2>
+@if (TempData["Error"] != null)
+{
+    @TempData["Error"]
+}
+<form>
+    <table>
+        <tr>
+            <td>Nombre</td>
+            <td>@Html.TextBox("Nombre")</td>
+        </tr>
+        <tr>
+            <td>Genero</td>
+            <td>@Html.TextBox("Genero")</td>
+        </tr>
+        <tr>
+            <td>Fecha de Emicion</td>
+            <td>@Html.TextBox("Fecha", null, new { type = "date" })</td>
+        </tr>
+        <tr>
+            <td>Director</td>
+            <td>@Html.TextBox("Director")</td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Agregar" formaction="/Home/Agregar_post" /></td>
+            <td>@Html.ActionLink("Regresar", "Index")</td>
+        </tr>
+
+    </table>
+</form>

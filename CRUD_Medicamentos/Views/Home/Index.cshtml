@@ -1,0 +1,29 @@
+﻿@using System.Data
+@model DataTable
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<table>
+    <tr>
+        <th>Medicamento</th>
+        <th>Tipo</th>
+        <th>Fecha de Caducidad</th>
+        <th>Precio</th>
+        <th>Opciones</th>
+    </tr>
+    @foreach(DataRow item in Model.Rows)
+            {
+                <tr>
+                    <td>@item["Nombre_del_medicamento"]</td>
+                    <td>@item["Tipo_del_medicamento"]</td>
+                    <td>@item["Fecha_de_caducidad"]</td>
+                    <td>@item["Precio"]</td>
+                    <td><a href="/Home/Vista_editar/@item["Id_medicamento"]">Editar</a></td>
+                    <td><a href="~/Home/Eliminar/@item["Id_medicamento"]" onclick="return confirm('Seguro que quiere eliminar este medicamento?')">Eliminar</a></td>
+                </tr>
+            }
+
+
+</table>
+@Html.ActionLink("Agregar" , "Agregar_get")

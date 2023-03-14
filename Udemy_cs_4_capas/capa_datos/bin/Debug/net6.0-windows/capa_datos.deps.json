@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "capa_datos/1.0.0": {
+        "dependencies": {
+          "capa_Entidad": "1.0.0"
+        },
+        "runtime": {
+          "capa_datos.dll": {}
+        }
+      },
+      "capa_Entidad/1.0.0": {
+        "runtime": {
+          "capa_Entidad.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "capa_datos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "capa_Entidad/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

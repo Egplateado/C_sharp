@@ -1,0 +1,11 @@
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\BussinesPeliculas\bin\Debug\BussinesPeliculas.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\BussinesPeliculas\bin\Debug\BussinesPeliculas.pdb
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\BussinesPeliculas\bin\Debug\DataPelicula.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\BussinesPeliculas\bin\Debug\EntityPelicula.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\BussinesPeliculas\bin\Debug\DataPelicula.pdb
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\BussinesPeliculas\bin\Debug\EntityPelicula.pdb
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\BussinesPeliculas\obj\Debug\BussinesPeliculas.csproj.AssemblyReference.cache
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\BussinesPeliculas\obj\Debug\BussinesPeliculas.csproj.CoreCompileInputs.cache
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\BussinesPeliculas\obj\Debug\BussinesPeliculas.csproj.CopyComplete
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\BussinesPeliculas\obj\Debug\BussinesPeliculas.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\BussinesPeliculas\obj\Debug\BussinesPeliculas.pdb
