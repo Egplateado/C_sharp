@@ -1,0 +1,34 @@
+﻿@using EntityPelicula
+@model EPelicula
+@{
+    ViewBag.Title = "Editar_get";
+}
+
+<h2>Editar_get</h2>
+
+<form>
+    <table>
+        <tr>
+            <td>Nombre</td>
+            <td>@Html.TextBox("Nombre" ,Model.Nombre)</td>
+            <td>@Html.Hidden("Id" , Model.Id)</td>
+        </tr>
+        <tr>
+            <td>Genero</td>
+            <td>@Html.TextBox("Genero" , Model.Genero)</td>
+        </tr>
+        <tr>
+            <td>Fecha de Emicion</td>
+            <td>@Html.TextBox("Fecha", null, new { type = "date" })</td>
+        </tr>
+        <tr>
+            <td>Director</td>
+            <td>@Html.TextBox("Director" , Model.Director)</td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Aceptar" formaction="/Home/Editar_post" /></td>
+            <td>@Html.ActionLink("Regresar", "Index")</td>
+        </tr>
+
+    </table>
+</form>

@@ -1,0 +1,42 @@
+﻿body
+{
+    background-color:lightgreen;
+   
+    color:black;
+}
+
+table {
+    padding:4px;
+    border:2px solid red;
+    
+    text-align:center;
+}
+td {
+    border: 2px solid blue;
+}
+
+th
+{
+    border: 3px solid black;
+    padding:10px 50px;
+}
+
+.title-table
+{
+    text-align:center;
+}
+
+.Center
+{
+    margin:80px 315px;
+    background:#f8b6b6;
+    border-radius:42px;
+   
+}
+
+.Buscar
+{
+    background:#a9cb1c;
+    border-radius: 28px;
+    padding:45px;
+}

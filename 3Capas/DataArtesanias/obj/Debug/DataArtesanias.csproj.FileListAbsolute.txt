@@ -1,0 +1,6 @@
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\3Capas\DataArtesanias\bin\Debug\DataArtesanias.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\3Capas\DataArtesanias\bin\Debug\DataArtesanias.pdb
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\3Capas\DataArtesanias\obj\Debug\DataArtesanias.csproj.AssemblyReference.cache
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\3Capas\DataArtesanias\obj\Debug\DataArtesanias.csproj.CoreCompileInputs.cache
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\3Capas\DataArtesanias\obj\Debug\DataArtesanias.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\3Capas\DataArtesanias\obj\Debug\DataArtesanias.pdb

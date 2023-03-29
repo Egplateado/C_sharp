@@ -1,0 +1,42 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Agregar_get</title>
+</head>
+<body>
+    <div>
+        <form>
+            <table>
+                <tr>
+                    <td>Nombre</td>
+                    <td>@Html.TextBox("Nombre")</td>
+                </tr>
+                <tr>
+                    <td>Color</td>
+                    <td>@Html.TextBox("Color")</td>
+                </tr>
+                <tr>
+                    <td>Unidades</td>
+                    <td>@Html.TextBox("Unidades")</td>
+                </tr>
+                <tr>
+                    <td>Precio</td>
+                    <td>@Html.TextBox("Precio")</td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Agregar" formaction="/Home/Agregar_post" /></td>
+                    <td>@Html.ActionLink("Regresar", "Index")</td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+</body>
+</html>

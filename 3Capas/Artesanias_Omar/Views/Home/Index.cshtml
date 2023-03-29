@@ -1,0 +1,55 @@
+﻿@using EntityArtesanias
+@model List<Entity_artesanias>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Estilos/Index.css" rel="stylesheet" />
+</head>
+<body>
+    <section class = "Center">
+        <div>
+                <h2 class="title-table">Artesanias Disponibles</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nombre</th>
+                        <th>Color</th>
+                        <th>Unidades</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Nombre</td>
+                    <td>@item.Color</td>
+                    <td>@item.Unidades</td>
+                    <td>@item.Precio</td>
+                    <td><a href="/Home/Eliminar/@item.Id" onclick="return confirm('Seguro que desea eliminar esta artesania?')">Eliminar</a></td>
+                    <td><a href="/Home/Editar_get/@item.Id">Editar</a></td>
+                </tr>
+            }
+                </tbody>
+            </table>
+            <a href="/Home/Agregar_get">Agregar</a>
+        </div>
+    </section>
+    <section class="Buscar">
+        @using (Html.BeginForm())
+            {
+                @Html.TextBox("Buscar")
+            <input type="submit" value="Buscar" formaction="Home/Buscar" />   
+            }
+    </section>
+</body>
+</html>

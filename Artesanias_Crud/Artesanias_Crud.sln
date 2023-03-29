@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Artesanias_Crud", "Artesanias_Crud.csproj", "{01C246F7-479A-433F-AA01-73A9A80524A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{2944E8CB-AFF1-425B-A81C-856243CBEC74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bussines", "Bussines", "{400A8E62-C014-4FE4-8BA2-6C4DCA202A8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{9F556B24-6801-4C44-A9DF-40178A580DD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataArtesania", "..\DataArtesania\DataArtesania.csproj", "{614B8E7A-6B3A-4EB2-A936-3456FBF8B667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinesArtesania", "..\BussinesArtesania\BussinesArtesania.csproj", "{5A153A2D-896A-4C16-B362-92D8A8A1AADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityArtesania", "..\EntityArtesanias\EntityArtesania.csproj", "{E511E902-9AB2-4732-B635-2AA0307AF32B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01C246F7-479A-433F-AA01-73A9A80524A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C246F7-479A-433F-AA01-73A9A80524A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C246F7-479A-433F-AA01-73A9A80524A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C246F7-479A-433F-AA01-73A9A80524A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{614B8E7A-6B3A-4EB2-A936-3456FBF8B667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614B8E7A-6B3A-4EB2-A936-3456FBF8B667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614B8E7A-6B3A-4EB2-A936-3456FBF8B667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614B8E7A-6B3A-4EB2-A936-3456FBF8B667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A153A2D-896A-4C16-B362-92D8A8A1AADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A153A2D-896A-4C16-B362-92D8A8A1AADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A153A2D-896A-4C16-B362-92D8A8A1AADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A153A2D-896A-4C16-B362-92D8A8A1AADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E511E902-9AB2-4732-B635-2AA0307AF32B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E511E902-9AB2-4732-B635-2AA0307AF32B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E511E902-9AB2-4732-B635-2AA0307AF32B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E511E902-9AB2-4732-B635-2AA0307AF32B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01C246F7-479A-433F-AA01-73A9A80524A5} = {2944E8CB-AFF1-425B-A81C-856243CBEC74}
+		{614B8E7A-6B3A-4EB2-A936-3456FBF8B667} = {9F556B24-6801-4C44-A9DF-40178A580DD2}
+		{5A153A2D-896A-4C16-B362-92D8A8A1AADB} = {400A8E62-C014-4FE4-8BA2-6C4DCA202A8B}
+		{E511E902-9AB2-4732-B635-2AA0307AF32B} = {400A8E62-C014-4FE4-8BA2-6C4DCA202A8B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25E4D652-AA93-408A-A7C5-7564FB81B9CD}
+	EndGlobalSection
+EndGlobal

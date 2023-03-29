@@ -1,0 +1,11 @@
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\3Capas\BussinesArtesanias\bin\Debug\BussinesArtesanias.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\3Capas\BussinesArtesanias\bin\Debug\BussinesArtesanias.pdb
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\3Capas\BussinesArtesanias\bin\Debug\DataArtesanias.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\3Capas\BussinesArtesanias\bin\Debug\EntityArtesanias.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\3Capas\BussinesArtesanias\bin\Debug\DataArtesanias.pdb
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\3Capas\BussinesArtesanias\bin\Debug\EntityArtesanias.pdb
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\3Capas\BussinesArtesanias\obj\Debug\BussinesArtesanias.csproj.AssemblyReference.cache
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\3Capas\BussinesArtesanias\obj\Debug\BussinesArtesanias.csproj.CoreCompileInputs.cache
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\3Capas\BussinesArtesanias\obj\Debug\BussinesArtesanias.csproj.CopyComplete
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\3Capas\BussinesArtesanias\obj\Debug\BussinesArtesanias.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#\3Capas\BussinesArtesanias\obj\Debug\BussinesArtesanias.pdb

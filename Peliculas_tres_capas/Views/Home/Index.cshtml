@@ -32,10 +32,31 @@
                 <td>@item.Fecha</td>
                 <td>@item.Director</td>
                 <td>
-                    Editar|Borrar
+                    <a href="/Home/Editar_get/@item.Id">Editar</a>
+                    <a href="/Home/Eliminar/@item.Id" onclick="return confirm('¿Seguro que desea eliminar la pelicula?')">Eliminar</a>
+                   
                 </td>
             </tr>
         }
         @Html.ActionLink("Agregar" , "Agregar_get")
-    </tbody>
+        @using (Html.BeginForm())
+        {
+                @Html.TextBox("Palabra")
+
+            <input type="submit" value="Buscar" formaction="/Home/Buscar"/>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Genero</th>
+                        <th>Fecha</th>
+                        <th>Director</th>
+
+                    </tr>
+                </thead>
+            </table>
+        }
+            
+            
+</tbody>
 </table>
