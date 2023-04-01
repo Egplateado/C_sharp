@@ -1,0 +1,6 @@
+C:\Users\plateado\Documents\TI_VEDELOPER\C#_ASP.NET\Data_animales\bin\Debug\Data_animales.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#_ASP.NET\Data_animales\bin\Debug\Data_animales.pdb
+C:\Users\plateado\Documents\TI_VEDELOPER\C#_ASP.NET\Data_animales\obj\Debug\Data_animales.csproj.AssemblyReference.cache
+C:\Users\plateado\Documents\TI_VEDELOPER\C#_ASP.NET\Data_animales\obj\Debug\Data_animales.csproj.CoreCompileInputs.cache
+C:\Users\plateado\Documents\TI_VEDELOPER\C#_ASP.NET\Data_animales\obj\Debug\Data_animales.dll
+C:\Users\plateado\Documents\TI_VEDELOPER\C#_ASP.NET\Data_animales\obj\Debug\Data_animales.pdb

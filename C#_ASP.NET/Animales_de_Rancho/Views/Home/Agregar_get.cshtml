@@ -1,0 +1,50 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Agregar_get</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap" rel="stylesheet">
+    <link href="~/Styles/Agregar_get.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>Agregar un Animal del Rancho</h1>
+    </header>
+    <div class="agregar"> 
+    @using(Html.BeginForm())
+            {
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Tipo</th>
+                            <th>Color</th>
+                            <th>Edad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>@Html.TextBox("Nombre")</td>
+                            <td>@Html.TextBox("Tipo")</td>
+                            <td>@Html.TextBox("Color")</td>
+                            <td>@Html.TextBox("Edad")</td>
+                        </tr>
+                    <td><input type="submit" value="Agregar" formaction="/Home/Agregar_post" /></td>
+                    </tbody>
+                </table> 
+                
+             }
+    </div>
+    <footer>
+        <span>Gracias por Agregar un animal</span>
+    </footer>
+</body>
+</html>

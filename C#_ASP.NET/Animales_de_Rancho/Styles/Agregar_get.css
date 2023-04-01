@@ -1,0 +1,37 @@
+﻿*
+{
+    box-sizing:border-box;
+    outline: 2px solid red !important;
+}
+body {
+    background-color: #F7F1E5;
+}
+
+header {
+    font-family: 'Alkatra', cursive;
+    display: flex;
+    justify-content: center;
+    background-color: #E7B10A;
+}
+
+.agregar
+{
+    margin-top:50px;
+    display:flex;
+    justify-content:center;
+}
+
+table
+{
+    border: 2px black solid;
+}
+
+td {
+    border: 2px black solid;
+}
+
+
+
+th {
+    border: 2px black solid;
+}

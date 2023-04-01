@@ -1,0 +1,59 @@
+﻿* {
+    box-sizing: border-box;
+    outline: 1px solid silver !important;
+}
+body {
+
+    background-color: #DAD5AB;
+}
+
+header {
+    background-color: #F0F0CB;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+nav {
+    list-style-type: none;
+    display: flex;
+    justify-content:center;
+}
+
+    nav li {
+        background-color: #FEFFE2;
+       display:inline-block;
+        margin: 10px 100px;
+        padding: 10px;
+    }
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: #000000;
+}
+
+#TABLA {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+th {
+    border: 2px #C3BA85 solid;
+}
+
+tr {
+    border: 2px #C3BA85 solid;
+}
+
+td {
+    border: 2px #C3BA85 solid;
+}
+
+footer {
+    margin-top: 39px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Teko', sans-serif;
+    font-weight:600;
+    
+}

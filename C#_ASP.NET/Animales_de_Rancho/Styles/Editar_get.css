@@ -1,0 +1,17 @@
+﻿* 
+{
+    box-sizing:border-box;
+    outline:1px blue solid !important;
+}
+
+body {
+    background-color: #86A3B8;
+}
+
+header {
+    font-family: 'Great Vibes', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    color: black;
+}

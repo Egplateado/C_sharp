@@ -1,0 +1,70 @@
+﻿@using Entity_animales
+@model List<EntityAnimales>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link href="~/Styles/Index.css" rel="stylesheet" />
+</head>
+<body>
+    <div> 
+        <header>
+            <H1>Animales de Rancho</H1>
+        </header>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="/Home/Agregar_get">Agregar</a></li>
+            <li>
+                @using (Html.BeginForm())
+                {
+                    @Html.TextBox("Palabra")
+                    <input type="submit" value="Buscar" formaction="/Home/Buscar">
+                }
+            </li>
+
+        </ul>
+     </nav>
+    <nav id="TABLA">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Tipo</th>
+                    <th>Color</th>
+                    <th>Edad</th>
+                    <th>Opciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var dr in Model)
+                {
+                    <tr>
+                        <td>@dr.Nombre</td>
+                        <td>@dr.Tipo</td>
+                        <td>@dr.Color</td>
+                        <td>@dr.Edad</td>
+                        <td><a href="/Home/Eliminar/@dr.Id" onclick="return confirm('Seguro que desea Eliminar un Animal?')">Eliminar</a></td>
+                        <td><a href="/Home/Editar_get/@dr.Id">Editar</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </nav>
+    <footer>
+        <span>Gracias por su visita</span>
+    </footer>
+</body>
+</html>
